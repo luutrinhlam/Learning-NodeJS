@@ -1,0 +1,72 @@
+How to create a git repo
+
+1. Create a new repo on github
+2. Create a local repo
+3. Open Terminal
+4. Cd to local repo
+5. Git clone https://github.com/cuongnguyen4285/git-test.git
+6. Add some files or edit some things
+7. Git add .
+8. Git status
+9. Git commit -m “my first commit”
+10. Git push -u origin master
+11. Next push, just type ‘git pull’ Or ’git pull origin master’
+
+
+How to reset branch
+1. git reset --hard origin/branch-name
+
+Add a specific a specific file
+Git add src/main/java/Dog.java
+
+Unstage a specific file
+Git restore --staged src/main/java/Dog.java
+
+Add other files
+1. Open Terminal
+2. Cd to local repo
+3. edit some things
+4. Git status
+5. Git add .
+6. Git commit -m “add some things”
+7. git push -u origin master
+
+Pull new code from git
+1. Git pull
+
+Update new changes to see
+1. Git fetch
+
+Create a new branch
+1. git checkout -b dev
+2. Edit/add some things
+3. Git status
+4. Git add .
+5. Git commit - m “add some things”
+6. Git push -u origin dev or git push --set-upstream origin dev
+7. Next push, just type ‘git pull’ Or ’git pull origin dev’
+
+Switch to another branch 
+1. git checkout dev
+
+Git rebase
+1. git checkout dev
+2. Git rebase master
+3. solve conflict if have
+4. Git rebase —continue
+5. git push --force origin master
+
+How to remove a file/folder from git
+Git rm —cached [file]
+
+===================================================
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:<accountname>/<reponame>.git
+git push -u origin master
+
+1. #Git init
+2. #git remote add origin https://github.com/cuongnguyen4285/git-test.git
+3.

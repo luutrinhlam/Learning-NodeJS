@@ -30,7 +30,10 @@ function respondEcho(req, res){
     //console.log("x: " + x)
     //console.log("input: "+input)
     console.log(typeof input)
-    res.end(input)
+    res.end(
+        JSON.stringify({
+            input: input
+        }))
 }
 
 const server = http.createServer((req,res)=>{

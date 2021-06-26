@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.readdir('C:\\Users\\Admin\\Desktop\\Learning-NodeJS\\02-async\\',(err,files)=>{
+fs.readdir('./',(err,files)=>{
     if(err){
         console.error(err);
     }

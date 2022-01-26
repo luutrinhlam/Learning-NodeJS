@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/luutrinhlam/Learning-NodeJS/issues"
   },
-  "homepage": "https://github.com/luutrinhlam/Learning-NodeJS#readme"
+  "homepage": "https://github.com/luutrinhlam/Learning-NodeJS#readme",
+  "dependencies": {
+    "mqtt": "^4.2.8"
+  }
 }
